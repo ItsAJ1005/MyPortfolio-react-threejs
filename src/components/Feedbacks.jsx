@@ -1,10 +1,10 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from "react"
+import { motion } from "framer-motion"
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { styles } from "../styles"
+import { SectionWrapper } from "../hoc"
+import { fadeIn, textVariant } from "../utils/motion"
+import { testimonials } from "../constants"
 
 
 // This section will be modified to feedbacks when some one comments on my work...   {of in between desg and company}
@@ -62,7 +62,7 @@ const Feedbacks = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "")
