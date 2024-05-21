@@ -1,12 +1,12 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react"
+import { motion } from "framer-motion"
+import emailjs from "@emailjs/browser"
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
-import { LinkedIn, git, github, instagramLogo, reactjs } from "../assets";
+import { styles } from "../styles"
+import { EarthCanvas } from "./canvas"
+import { SectionWrapper } from "../hoc"
+import { slideIn } from "../utils/motion"
+import { LinkedIn, git, github, instagramLogo, reactjs } from "../assets"
 
 
 
@@ -64,8 +64,8 @@ const Contact = () => {
 
           alert("Ahh, something went wrong. Please try again.");
         }
-      );
-  };
+      )
+  }
 
   return (
     <div
@@ -163,7 +163,7 @@ const Contact = () => {
 
     </div>
     
-  );
-};
+  )
+}
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, "contact")
