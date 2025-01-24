@@ -31,14 +31,17 @@ import codingIcon from "./company/codingIcon.jpg";
 import webDevIcon from "./company/webDevIcon.jpg";
 import nirvanaLogo from "./company/nirvanaLogo.png";
 import IOTA from "./company/IOTA.png";
-import SpeakUp from "./SpeakUp.png";
+import SpeakUp from "./projectLogos/SpeakUp.png";
 import everlastingmoments from "./everlastingmoments.jpg";
 import IIITSlogo from "./IIITSlogo.png";
 import pinIcon from "./pinIcon.png";
 import LinkedIn from "./LinkedIn.webp";
 import instagramLogo from "./instagramLogo.png"
-
-import AnimatedWebsite from "./AnimatedWebsite.png"
+import loadBalancerLogo from "./projectLogos/laod-balancer-architecture.png"
+import cubiclesSample from "./projectLogos/cubicles-landing.png"
+import AnimatedWebsite from "./projectLogos/AnimatedWebsite.png"
+import NLPproject from "./projectLogos/machineTranslationNLP.png"
+import BookHaven from "./projectLogos/Bookhaven.png" 
 
 export {
   logo,
@@ -79,4 +82,8 @@ export {
   pinIcon,
   LinkedIn,
   instagramLogo,
+  loadBalancerLogo,
+  cubiclesSample,
+  NLPproject,
+  BookHaven
 };
