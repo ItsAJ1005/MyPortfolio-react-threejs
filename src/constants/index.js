@@ -66,7 +66,7 @@ import {
       icon: backend,
     },
     {
-      title: "BlockChain",
+      title: "DevOps",
       icon: creator,
     },
   ];
