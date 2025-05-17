@@ -40,6 +40,14 @@ const Navbar = () => {
               ))
 
               }
+                <li
+                  key={"leetcode"} className={`${
+                    active === "leetcode"? "text-white":"text-secondary"
+                  } hover:text-white text-[18px] font-medium curser-pointer`}
+                  onClick={() => setActive("leetcode")}
+                >
+                  <a target='_blank' href={`https://leetcode.com/u/AJHarsh/`}>LeetCode</a>
+                </li>
           </ul>
             
             <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -68,6 +76,14 @@ const Navbar = () => {
               ))
 
               }
+                <li
+                  key={"leetcode"} className={`${
+                    active === "leetcode"? "text-white":"text-secondary"
+                  } hover:text-white text-[18px] font-medium curser-pointer`}
+                  onClick={() => setActive("leetcode")}
+                >
+                  <a target='_blank' href={`https://leetcode.com/u/AJHarsh/`}>LeetCode</a>
+                </li>
           </ul></div>
                 
             </div>

@@ -90,7 +90,7 @@ const Works = () => {
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively. <br/><br/>PLease click on the top right icon of the card to access the project source code.
+          and manage projects effectively. <br/><br/>PLease click on the top right icon of the card to access the project source code. <b>Projects are well documented and contains the deployed link in GitHub!</b>
         </motion.p>
       </div>
 

@@ -47,15 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           
-        It's me AJ! A motivated and skilled second year BTech student pursuing Computer
+        It's me AJ! A motivated and skilled final year BTech student pursuing Computer
         Science Engineering with a strong passion for software development. I possess a
-        solid foundation in programming languages like C, C++, Java, Js and an eagerness to explore innovative
-        technologies. With a strong desire to make a positive impact through technology, I
+        solid foundation in programming languages like C, C++, Java, Js, Ts, python and an eagerness to explore innovative
+        technologies. I am interested in real-time systems, system design, cloud architectures. With a strong desire to make a positive impact through technology, I
         am committed to honing my skills and contributing to the field of computer science.<br/>
 
         <br/>I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. My Codefores rating is <b>1361 (pupil) and leetcode (1809).</b> Let's work together to bring your ideas to life!
 
       </motion.p>
 
