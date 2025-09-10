@@ -43,6 +43,7 @@ import AnimatedWebsite from "./projectLogos/AnimatedWebsite.png"
 import NLPproject from "./projectLogos/machineTranslationNLP.png"
 import BookHaven from "./projectLogos/Bookhaven.png" 
 import PehchaanLogo from "./company/pehchaanLogo.png"
+import financeTracker from "./projectLogos/finance-tracker-home.jpg"
 
 export {
   logo,
@@ -87,5 +88,6 @@ export {
   loadBalancerLogo,
   cubiclesSample,
   NLPproject,
-  BookHaven
+  BookHaven,
+  financeTracker,
 };

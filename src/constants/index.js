@@ -35,7 +35,8 @@ import {
     cubiclesSample,
     NLPproject,
     BookHaven,
-    PehchaanLogo
+    PehchaanLogo,
+    financeTracker
   } from "../assets";
   
   export const navLinks = [
@@ -55,7 +56,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
@@ -63,11 +64,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer (MERN but not limited)",
       icon: backend,
     },
     {
-      title: "DevOps",
+      title: "DevOps | System Design",
       icon: creator,
     },
   ];
@@ -143,7 +144,9 @@ import {
       iconBg: "#383E56",
       date: "May 2025 - Present",
       points: [
-        "Implemented candidate auto-sourcing on 5+ websites and reduced candidate sourcing time by 80%.",
+        "Designed an AI-based automation system that reduced manual job posting time by 80% (from 5 minutes to 1 minute).",
+        "Improved employer onboarding efficiency by 75% using Agile methodologies, increasing job listing throughput from 20 to 35 postings per hour with generative AI and reducing time-to-market.",
+        "Implemented AI-powered input field recommendations, cutting form-filling time by 60% and reducing input errors by 40% across 50+ job listings daily. Tech Stack: Full-Stack development, PostgreSQL, OpenAI, React.js, Node.js, Electron.js"
       ],
     },
     {
@@ -170,19 +173,6 @@ import {
         "Hands on experience with Java and C form Indian Institute of Information Technology.",
         "Used C++ for problem solving in CodeForces and implement DSA in LeetCode.",
         "The codes can be found at my GitHub and Pastebin accounts.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Html, CSS, Js and frameworks",
-      icon: webDevIcon,
-      iconBg: " #E6DEDD",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, classmates, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -224,7 +214,7 @@ import {
     },
     {
       testimonial:
-        "I am currently pursuing B.Tech in Computer Science & Engineering as a pre-final student at IIITS.",
+        "I am currently pursuing B.Tech in Computer Science & Engineering as a final student at IIITS.",
       name: "Indian Institute of Information Technology, Sri City",
       designation: "",
       company: "",
@@ -241,6 +231,63 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Finance Tracker",
+      description:
+        "Built an AI-driven Personal Finance Tracker with a GPT-4 chatbot for personalized financial advice. Optimized amulti-engine OCRpipeline (Tesseract.js primary + Google Gemini fallback) achieving 95% accuracy on PDFs and >60% on receipts, reducing transaction processing time by 40%. Implemented autopay and recurring scheduling with Node-cron (3am). Created dashboards and charts for category-wise analytics and savings insights, reduced manual bill management efforts by 50%.",
+      tags: [
+        {
+          name: "React",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Gemini AI Integration",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Open AI",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Cache",
+          color: "green-text-gradient"
+        },
+        {
+          name: "Tesseract OCR",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "LLM integration",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "OAuth 2.0, JWT",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Chart.js",
+          color: "orange-text-gradient"
+        },
+      ],
+      image: financeTracker,
+      source_code_link: "https://github.com/ItsAJ1005/typeface-finance-app",
+    },
     {
       name: "Cubicles",
       description:

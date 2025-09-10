@@ -84,17 +84,18 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-sm sm:text-[17px] max-w-3xl leading-relaxed sm:leading-[30px] px-4 sm:px-0'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          Following projects showcase my skills and experience through
+          real-world examples of my work. Each project includes
+          links to code repositories and live demos. They demonstrate my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively. <br/><br/>PLease click on the top right icon of the card to access the project source code. <b>Projects are well documented and contains the deployed link in GitHub!</b>
+          and manage projects effectively.
+          <br/><br/>Tap the top right icon on each card to view the source code. <b>All projects are well-documented and include deployment links on GitHub!</b>
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-10 sm:mt-20 flex flex-wrap justify-center gap-4 sm:gap-7 px-4 sm:px-0'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
