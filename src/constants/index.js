@@ -35,6 +35,7 @@ import {
     cubiclesSample,
     NLPproject,
     BookHaven,
+    PehchaanLogo
   } from "../assets";
   
   export const navLinks = [
@@ -135,6 +136,16 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Developer Intern",
+      company_name: "Pehchaan.me",
+      icon: PehchaanLogo,
+      iconBg: "#383E56",
+      date: "May 2025 - Present",
+      points: [
+        "Implemented candidate auto-sourcing on 5+ websites and reduced candidate sourcing time by 80%.",
+      ],
+    },
     {
       title: "React.js Developer",
       company_name: "React",

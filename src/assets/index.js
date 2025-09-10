@@ -42,6 +42,7 @@ import cubiclesSample from "./projectLogos/cubicles-landing.png"
 import AnimatedWebsite from "./projectLogos/AnimatedWebsite.png"
 import NLPproject from "./projectLogos/machineTranslationNLP.png"
 import BookHaven from "./projectLogos/Bookhaven.png" 
+import PehchaanLogo from "./company/pehchaanLogo.png"
 
 export {
   logo,
@@ -80,6 +81,7 @@ export {
   everlastingmoments,
   IIITSlogo,
   pinIcon,
+  PehchaanLogo,
   LinkedIn,
   instagramLogo,
   loadBalancerLogo,
